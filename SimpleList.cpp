@@ -14,7 +14,7 @@ SimpleList::~SimpleList()
 	{
 		temp = head;
 		head = temp->next;
-		delete temp;
+//		delete temp;
 	}
 }
 
@@ -85,7 +85,7 @@ void SimpleList::Push(int value)
 		head->next = temp;
 	head = temp;
 	
-	delete temp;
+	//delete temp;
 
 	cout << "Pushed Item" << endl;
 }
@@ -108,7 +108,6 @@ int SimpleList::Pop()
 		tail == NULL;
 
 	int nReturn = temp->value;
-	delete temp;
 
 	cout << "Popped Item" << endl;
 	return nReturn;
