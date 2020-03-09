@@ -1,5 +1,9 @@
-// SimpleListApp.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/*
+Lydia Pierce
+Intro to Data Structures
+SimpleListApp.cpp : Creates a linked list, pushes and pops and item like a stack, displays the list.
+3/9/2020
+*/
 
 #include <iostream>
 #include "SimpleList.h"
